@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scrolling Sections</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body>
+<div class="container">
+  <div id='graphic'>
+    <div id='sections'>
+      <section class="step">
+        <div class="title">How risky is it to fly?</div>
+        Out of the 16 million flights between 1995 and 2016, roughly 1,987 incidents occured...
+      </section>
+      <section class="step">
+        <div class="title"></div>
+        ...which is roughly 0.001% of those flights.
+      </section>
+      <section class="step">
+        <div class="title"></div>
+        Here are all 1,987 incidents between 1995 and 2016.
+      </section>
+      <section class="step">
+        <div class="title"></div>
+        Out of the 1,987 incidents, 134 flights (or 6.7%) resulted in fatalities. Bear in mind, this is 6.7% of the 0.001% of all flights.
+      </section>
+      <section class="step">
+        <div class="title"></div>
+        776 (or 38.5%) incidents were classified as non-fatal. The remaining 54.8% were not serious enough to even categorized as "non-fatal."<br/><br/>In those 22 years, 99.999% of the flights were safe. But is there any way to make your trip even safer? Let's explore some more data.
+      </section>
+      <section class="step">
+        <div class="title">Incidents by Country</div>
+        If you are flying on a flight not to/from United States, you are in luck. It appears that United States has had the most incidents in those 22 years at 1036 incidents. In comparison, the UK only had 70.
+      </section>
+      <section class="step">
+        <div class="title">Incidents by Carrier</div>
+        Here are the carriers with the top 10 most incidents. Delta seems to have had the most incidents, while Alaska Airlines had the least. Maybe it would be a good idea to avoid all of them?
+      </section>
+      <section class="step">
+        <div class="title">Incidents by Manufacturer</div>
+        Despite looking similar, aircrafts are made by different manufacturers. The chart shows that Boeing has had the greatest number of incidents. Did you know you can check which manufacturer your carrier is flying when you book your ticket?
+      </section>
+      <section class="step">
+        <div class="title">Incidents by Flight Phase</div>
+        All that has been discussed above can sometimes be out of your control, so here's some data that works for every plane regardless of the previous criteria: flight phases. While you may need to do some search on what each phase means, knowing what phase incident happens the most can be helpful when you fly. From our data, Takeoff, Taxi, and Landing seem to have the most incidents.
+      </section>
+    </div>
+    <div id='vis'>
+    </div>
+  </div>
+</div>
+
+
+<script src="lib/d3.js"></script>
+<script src="js/scroller.js"></script>
+<script src="js/sections.js"></script>
+</body>
+</html>
